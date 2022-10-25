@@ -7,8 +7,17 @@ public class LoanCalculator {
     /**
      * TODO: finish out this JavaDoc comment block.
      * FIXME: WHAT DOES THIS METHOD DO?
-     *
      * @author Antoine Gaton
+     *
+     *You take a loan from a friend and need to calculate how much you will owe them after 3 months.
+     * You are going to pay them back 10% of the remaining loan amount each month.
+     *
+     * The getRemainingAmountIn3Months method receives a total loan amount and the months of payment as a parameter,
+     *      -> calculates how much 10% of the initial amount is.
+     *      -> reduce the payment from amount.
+     *      -> continue doing this for the duration of monrths of payment.
+     *
+     *
      * @param amount is the value of loan.
      * @param months is the duration of payments.
      */
