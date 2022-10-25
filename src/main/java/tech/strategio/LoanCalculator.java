@@ -7,13 +7,13 @@ public class LoanCalculator {
     /**
      * TODO: finish out this JavaDoc comment block.
      * FIXME: WHAT DOES THIS METHOD DO?
-     * 
-     * @param ???
-     * @return ???
+     *
+     * @author Antoine Gaton
+     * @param amount is the value of loan.
+     * @param months is the duration of payments.
      */
     static void getRemainingAmountIn3Months(int amount, int months) {
         // TODO: Rewrite this method
-        int remaining = amount;
         for (int i=1;i<=months;i++){
             double payment = 0.1 * amount;
             System.out.println("Month "+i+":");
